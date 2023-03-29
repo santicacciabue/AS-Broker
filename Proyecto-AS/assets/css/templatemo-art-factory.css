@@ -719,9 +719,16 @@ header
   display: flex;
 }
 
-.img-logo{  
-  width: 10%;
+.logo-container{
+  display: flex;
+  flex-direction:row;
 }
+
+.img-logo{
+  width: 7%;
+  object-fit: scale-down;
+}
+
 
 /* 
 ---------------------------------------------
